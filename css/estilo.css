@@ -83,21 +83,53 @@ h1{
     font-family: Augusta;
 }
 
-.preco {
-    margin-left: 110px;
+.Edicoes > h1 {
+    margin-left: 870px;
+    font-family: Augusta;
+    color: #ffffff;
+
+}
+
+.container {
+    
+    width:1800px;
+    height: 533px;
+    display: grid;
+    grid-template-columns: 30px 40px 40px;
+    margin-top: 150px;
 }
 
 .edit1 {
-
-    margin-top: 200px;
-    text-align: left;
+   
+    width: 314px;
+    height: 533px;
+    color: white;
+    margin-top: 0px;
     margin-left: 100px;
-    width: 1630px;
+
 }
+
+.edit1 > h2 {
+    width: 314px;
+}
+
+.preco {
+    text-align: center;
+}
+
+.edit1 > button {
+
+    background-color: rgb(219, 68, 18);
+    color: white;
+    height: 50px;
+    width: 314px;
+    margin-top: 30px;
+    border-radius:40px;
+    font-family: sans-serif;
+    }
 
  h2 {
     color: #ffffff;
-    font-family: sans-serif;
 }
 h3 {
     color: #ffffff;
@@ -105,30 +137,61 @@ h3 {
 }
 
 .edit2 {
-    text-align: center;
-    margin-top: -550px;
-    margin-right: -20px;
-    width: 1870px;
     
+    width: 314px;
+    color: white;
+    margin-left: 750px;
+    margin-bottom: 200px;
 }
 
-.edit3 {
+.edit2 > h2 {
+    width: 314px;
     text-align: center;
-    margin-top: -530px;
-    margin-left: 1320px;
-    width: 300px;
+} 
+
+.preco2{
+    text-align: center;
 }
 
-button {
+.edit2 > button {
+
     background-color: rgb(219, 68, 18);
     color: white;
     height: 50px;
-    width: 400px;
+    width: 314px;
     margin-top: 30px;
-    margin-left: -10px;
-    border-radius:40px ;
+    border-radius:40px;
     font-family: sans-serif;
+    }
+
+.edit3 {
+    
+    width: 314px;
+    color: white;
+    margin-left: 1400px;
+    margin-bottom: 200px;
 }
+
+.edit3 > h2 {
+    width: 314px;
+    text-align: center;
+} 
+
+.preco3 {
+    text-align: center;
+}
+
+.edit3 > button {
+
+    background-color: rgb(219, 68, 18);
+    color: white;
+    height: 50px;
+    width: 314px;
+    margin-top: 30px;
+    border-radius:40px;
+    font-family: sans-serif;
+    }
+
 
 .login_menu {
     width: 320px;
@@ -295,11 +358,4 @@ button {
  position: absolute;
  margin-top: -653px;
  margin-left: 550px;
-}
-
-@media (max-width:: 1366px) {
-    body {
-        width: 1366px;
-        height: 768px;
-    }
 }
