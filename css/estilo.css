@@ -297,8 +297,9 @@ button {
  margin-left: 550px;
 }
 
-@media (max-width:: 700px) {
+@media (max-width:: 1366px) {
     body {
-        width: 200px;
+        width: 1366px;
+        height: 768px;
     }
 }
