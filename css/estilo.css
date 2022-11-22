@@ -1,0 +1,304 @@
+@import url(//db.onlinewebfonts.com/c/b5812d00cbaf1ed6a4e92271687b482e?family=);
+@font-face {font-family: "augusta"; src: "font/Augusta.ttf"; 
+    }
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container_menu {
+    width: 100%;
+    margin: auto;
+    background-color: transparent;
+}
+
+.menu_field {
+    width: 100%;
+    height: 50px;
+    display:flex;/* ALINHA TUDO DENTRO DA DIV NO CENTRO DELA */
+    align-items: center;
+    justify-content: center;
+}
+
+
+.field_menu {
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px #403424;
+}
+
+
+.menu {
+    float: left;
+}
+
+#menu-img {
+    width: 30%;
+    height: 70px;
+    margin-top: 10px;
+}
+
+#menu-opt {
+    width: 70%;
+    height: 70px;
+
+}
+
+.menu_conc {
+    width: 100px;
+    height: 70px;
+    margin-left: 40px;
+    float: right;
+    display: flex;/* ALINHA TUDO DENTRO DA DIV NO CENTRO DELA */
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.menu_conc a {
+    text-decoration:double;
+    margin-left: -1500px;
+    color: rgb(227, 220, 212);
+
+}
+
+.menu_conc a:hover {
+    cursor: pointer;
+    text-decoration: underline rgb(255, 255, 255);
+    text-align: center;
+}
+
+body {
+    background: no-repeat url(https://image.api.playstation.com/vulcan/img/rnd/202010/2614/O2Z66UWrZH8zcejxopwWxhGu.png?w=1920&thumb=false);
+    
+}
+
+h1{
+    color: #ffffff;
+    font-size: 40px;
+    width: auto;
+    height: 60px;
+    background-color: transparent;
+    margin-left: 40px;
+    font-family: Augusta;
+}
+
+.preco {
+    margin-left: 110px;
+}
+
+.edit1 {
+
+    margin-top: 200px;
+    text-align: left;
+    margin-left: 100px;
+    width: 1630px;
+}
+
+ h2 {
+    color: #ffffff;
+    font-family: sans-serif;
+}
+h3 {
+    color: #ffffff;
+    font-family: sans-serif;
+}
+
+.edit2 {
+    text-align: center;
+    margin-top: -550px;
+    margin-right: -20px;
+    width: 1870px;
+    
+}
+
+.edit3 {
+    text-align: center;
+    margin-top: -530px;
+    margin-left: 1320px;
+    width: 300px;
+}
+
+button {
+    background-color: rgb(219, 68, 18);
+    color: white;
+    height: 50px;
+    width: 400px;
+    margin-top: 30px;
+    margin-left: -10px;
+    border-radius:40px ;
+    font-family: sans-serif;
+}
+
+.login_menu {
+    width: 320px;
+    height: 420px;
+    background:  rgba(46, 39, 39, 0.677);
+    color: #ffffff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing:border-box;
+    border-radius: 50px;
+    padding: 70px 30px;
+}
+
+.avatar {
+   width: 100px;
+   height: 100px;
+   border-radius: 50px;
+   position: absolute;
+   top: -10%;
+   left: calc(50%  - 50px); 
+   background-color:  rgba(46, 39, 39, 0.677);
+   
+}
+
+.login_menu  > h1 {
+    margin: 0;
+    padding: 0 0 10px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Augusta;
+}
+
+.login_menu a{
+    color: #007ff5;
+}
+
+.login_menu p{
+    margin: 0;
+    padding: 0;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.login_menu input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.login_menu input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+
+.login_menu input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #474b64;
+    color: rgb(246, 247, 245);
+    font-size: 30px;
+    border-radius: 50px;
+    font-family: Augusta;
+}
+
+.login_menu input[type="submit"]:hover 
+{
+    cursor: pointer;
+    background: #474b64;
+    color: rgb(248, 245, 245, 0.403);
+}
+
+.exp{
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 100px;
+    display: inline-table;
+
+}
+
+.descbox{
+    font-size: 25px;
+    width: 350px;
+    height: 500px;
+    background: rgba(34, 32, 32, 0.699);
+    color: rgb(199, 199, 199);
+    position: absolute;
+    box-sizing: border-box;
+    text-align: left;
+    display: inline-block;
+    margin-left: -180px;
+}
+
+.quadrado > h1 {
+    width: 430px;
+    height: 42px;
+    margin-top: 70px;
+    margin-left: 0;
+    text-align: center;
+    font-family: Augusta;
+    color: #c5ac87;
+}
+.quadrado >  h2 {
+    font-family: Augusta;
+    width: 323px;
+    margin-top: 10px;
+    color: #c5ac87;
+}
+
+.quadrado > h3 {
+    height: 304px;
+    width: 430px;
+    margin-top: 10px;
+    font-family: Augusta;
+    position: relative;
+    color: #c5ac87;
+}
+
+.Esp > h1{
+    width: 430px;
+    height: 42px;
+    margin-left: 0;
+    margin-top: 10px;
+    text-align: center;
+    font-family: Augusta;
+    color: #c5ac87;
+}
+
+.Esp > h3 {
+    width: 430px;
+    height: 197px;
+    margin-top: 10px;
+    font-family: Augusta;
+    color: #c5ac87;    
+}
+
+.Req > h1{
+    width: 430px;
+    height: 42px;
+    margin-left: 0;
+    margin-top: 10px;
+    text-align: center;
+    font-family: Augusta;
+    color: #c5ac87; 
+}
+
+.Req > h3 {
+    width: 430px;
+    height: 43px;
+    margin-top: 10px;
+    font-family: Augusta;
+    color: #c5ac87;
+}
+
+.vid {
+ position: absolute;
+ margin-top: -653px;
+ margin-left: 550px;
+}
+
+@media (max-width:: 700px) {
+    body {
+        width: 200px;
+    }
+}
