@@ -306,6 +306,7 @@ h3 {
     font-family: Augusta;
     width: 323px;
     margin-top: 10px;
+    margin-left: 5px;
     color: #c5ac87;
 }
 
@@ -359,3 +360,55 @@ h3 {
  margin-top: -653px;
  margin-left: 550px;
 }
+
+.bk {
+    background-repeat: repeat-x;
+    background-color: #007ff5;
+}
+
+.descsobre {
+    font-size: 25px;
+    width: 80%;
+    height: 4500px;
+    background: rgba(34, 32, 32, 0.226);
+    color: rgb(227, 220, 212);
+    position: absolute;
+    box-sizing: border-box;
+    text-align: left;
+    line-height: 150%;
+    display: inline-block;
+    left: 10%;
+    top: 120%;
+    
+}
+
+.content{
+    color: rgb(227, 220, 212);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 50px;
+    font-family: "Augusta";
+}
+
+
+.introd{
+    position: absolute;
+    top: 15%;
+    left: 40px;
+    color: rgb(227, 220, 212);
+    border: rgb(0, 0, 0);
+    width: 40%;
+    height: 60.5%;
+    font-size: 22px;
+    background-color: rgba(34, 32, 32, 0.623);
+    font-family: "Augusta";
+}
+
+.titulo{
+    font-size: 30px;
+    font-family: "Augusta";
+    text-align: center;
+}
+
+
+
